@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>F1 - Thymeleaf Rotas</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<!-- Header com logo e botão -->
+<header>
+    <div class="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/F1.svg/1280px-F1.svg.png" alt="F1 Logo">
+        <img src="/img/autor.png" alt="Autor" class="autor">
+    </div>
+    <nav>
+        <a th:href="@{/chororo}" class="btn">Chororo</a>
+    </nav>
+</header>
+
+
+<!-- Banner principal -->
+<section class="hero">
+    <img src="https://media.formula1.com/image/upload/t_16by9Centre/c_fit,h_1200/q_auto/v1740000000/fom-website/2025/Power%20Rankings%202025/Power%20Rankings%20Hero%20Image%2016x9_25%20copy.webp" alt="Pilotos F1">
+</section>
+
+<footer>
+    <p>Projeto Spring Boot + Thymeleaf - F1</p>
+</footer>
+</body>
+</html>
